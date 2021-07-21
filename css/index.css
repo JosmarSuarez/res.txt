@@ -1,0 +1,43 @@
+@import './button.css';
+@import './header.css';
+@import './hero.css';
+@import './wrapper.css';
+:root{
+    --fontBase: 'Maven Pro', sans-serif;
+    --fontSec: 'Share Tech', sans-serif;
+    --headline1: 60px/70.5px var(--fontBase);
+    --headline2: 30px/33.81px var(--fontSec);
+    --body1: 30px/35.25px var(--fontBase);
+    --button: 30px/33.81px var(--fontSec);
+    --back: #002845;
+    --pink: #e898ac;
+    --green: #00cfcc;
+    --orange: #ff9973;
+    --white: white;
+}
+body{
+    background: var(--back);
+    min-block-size: 100vh;
+    font: var(--body1);
+    color: var(--white);
+}
+h1{
+    font: var(--headline1);
+    color: var(--white);
+}
+h2{
+    font: var(--headline2);
+    color: var(--white);
+}
+header.shadow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -8px;
+    height: 15px;
+    background-color: var(--pink);
+    position: sticky;
+}
+img{
+    border-radius: 50%;
+}

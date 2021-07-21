@@ -1,0 +1,20 @@
+.menu{
+    display: none;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: var(--white);
+    font: var(--headline2);
+}
+
+@media screen and (min-width: 750px) {
+    .menu{
+        display: block;
+    }
+}

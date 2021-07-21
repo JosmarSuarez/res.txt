@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -8px;
+    height: 118px;
+    background-color: var(--green);
+    position: sticky;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-bottom: 15px;
+    border-color: var(--pink);
+}
+.header a{
+    text-decoration: none;
+    color: var(--white);
+    font: var(--headline2);
+    padding-top: 15px;
+}
