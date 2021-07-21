@@ -10,4 +10,42 @@
     border: none;
     text-decoration: none;
     text-align: center;
+    text-transform: lowercase;
+    position: absolute;
+    left: 1150px;
+    top: 660px;
+}
+.button-load{
+    background: var(--orange);
+    color: var(--white);
+    font: var(--button);
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    text-transform: lowercase;
+    position: absolute;
+    left: 1150px;
+    top: 680px;
+}
+.button-done{
+    background: var(--orange);
+    color: var(--white);
+    font: var(--button);
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    text-transform: lowercase;
+    position: absolute;
+    left: 1150px;
+    top: 680px;
 }

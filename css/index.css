@@ -7,7 +7,7 @@
     --fontSec: 'Share Tech', sans-serif;
     --headline1: 60px/70.5px var(--fontBase);
     --headline2: 30px/33.81px var(--fontSec);
-    --body1: 30px/35.25px var(--fontBase);
+    --body1: 25px/30px var(--fontBase);
     --button: 30px/33.81px var(--fontSec);
     --back: #002845;
     --pink: #e898ac;
