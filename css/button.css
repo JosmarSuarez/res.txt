@@ -29,8 +29,8 @@
     text-align: center;
     text-transform: lowercase;
     position: absolute;
-    left: 1150px;
-    top: 680px;
+    left: 150px;
+    top: 150px;
 }
 .button-done{
     background: var(--orange);
@@ -46,6 +46,6 @@
     text-align: center;
     text-transform: lowercase;
     position: absolute;
-    left: 1150px;
-    top: 680px;
+    left: 590px;
+    top: 690px;
 }

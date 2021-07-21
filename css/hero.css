@@ -70,6 +70,56 @@
     padding: 30px;
     justify-content: center;
 }
+.hero-cuerpo2{
+    position: absolute;
+    background: var(--green);
+    opacity: 25%;
+    width: 550px;
+    height: 380px;
+    left: 130px;
+    top: 230px; 
+    border-radius: 45px;
+    font: var(--body1);
+    color: var(--white);
+    padding: 25px;
+}
+.hero-text-cuerpo2{
+    position: absolute;
+    width: 550px;
+    height: 380px;
+    left: 130px;
+    top: 230px; 
+    border-radius: 45px;
+    font: var(--body1);
+    color: var(--white);
+    padding: 30px;
+    justify-content: center;
+}
+.hero-results{
+    position: absolute;
+    background: var(--pink);
+    opacity: 25%;
+    width: 550px;
+    height: 380px;
+    left: 820px;
+    top: 230px; 
+    border-radius: 45px;
+    font: var(--body1);
+    color: var(--white);
+    padding: 25px;
+}
+.hero-text-results{
+    position: absolute;
+    width: 550px;
+    height: 320px;
+    left: 820px;
+    top: 230px;
+    border-radius: 45px;
+    font: var(--body1);
+    color: var(--white);
+    padding: 30px;
+    justify-content: center;
+}
 .hero-img{
     position: absolute;
     left: 1065px;

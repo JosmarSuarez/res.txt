@@ -41,3 +41,13 @@ header.shadow{
 img{
     border-radius: 50%;
 }
+.hero-imgup{
+    position: absolute;
+    left: 70px;
+    top: 130px;
+}
+.hero-imgdown{
+    position: absolute;
+    left: 510px;
+    top: 670px;
+}
