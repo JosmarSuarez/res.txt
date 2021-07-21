@@ -16,3 +16,7 @@ const server = app.listen(app.get('port'), () => {
 //Socket.io
 const SocketIO = require('socket.io');
 const io = SocketIO(server);
+
+io.on('connection', (socket) => {
+    console.log('New conection: ', socket.id);
+});
