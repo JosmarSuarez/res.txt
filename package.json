@@ -1,0 +1,30 @@
+{
+  "name": "res.txt",
+  "version": "1.0.0",
+  "description": "Res.txt is a machine learning project that highlights the important parts from a text corpus.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosmarSuarez/res.txt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosmarSuarez/res.txt/issues"
+  },
+  "homepage": "https://github.com/JosmarSuarez/res.txt#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
