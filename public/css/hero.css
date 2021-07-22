@@ -7,7 +7,7 @@
     border-radius: 50%;
     position: absolute;
     left: 102px;
-    top: 180px;
+    top: 170px;
     scale: auto;
 }
 .hero-title{
@@ -25,7 +25,7 @@
     background: var(--green);
     opacity: 25%;
     width: 660px;
-    height: 350px;
+    height: 310px;
     left: 670px;
     top: 250px;
     border-radius: 45px;
@@ -35,8 +35,8 @@
 }
 .hero-text-cuerpo{
     position: absolute;
-    width: 670px;
-    height: 410px;
+    width: 660px;
+    height: 310px;
     left: 670px;
     top: 250px;
     border-radius: 45px;
@@ -75,9 +75,9 @@
     background: var(--green);
     opacity: 25%;
     width: 550px;
-    height: 380px;
+    height: 360px;
     left: 130px;
-    top: 230px; 
+    top: 220px; 
     border-radius: 45px;
     font: var(--body1);
     color: var(--white);
@@ -86,9 +86,9 @@
 .hero-text-cuerpo2{
     position: absolute;
     width: 550px;
-    height: 380px;
+    height: 360px;
     left: 130px;
-    top: 230px; 
+    top: 220px; 
     border-radius: 45px;
     font: var(--body1);
     color: var(--white);
@@ -102,7 +102,7 @@
     width: 550px;
     height: 380px;
     left: 820px;
-    top: 230px; 
+    top: 220px; 
     border-radius: 45px;
     font: var(--body1);
     color: var(--white);
@@ -113,7 +113,7 @@
     width: 550px;
     height: 320px;
     left: 820px;
-    top: 230px;
+    top: 220px;
     border-radius: 45px;
     font: var(--body1);
     color: var(--white);
@@ -122,6 +122,6 @@
 }
 .hero-img{
     position: absolute;
-    left: 1065px;
-    top: 640px;
+    left: 1070px;
+    top: 620px;
 }

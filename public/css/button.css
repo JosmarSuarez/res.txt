@@ -13,7 +13,7 @@
     text-transform: lowercase;
     position: absolute;
     left: 1150px;
-    top: 660px;
+    top: 640px;
 }
 .button-load{
     background: var(--orange);
@@ -47,5 +47,5 @@
     text-transform: lowercase;
     position: absolute;
     left: 590px;
-    top: 690px;
+    top: 655px;
 }

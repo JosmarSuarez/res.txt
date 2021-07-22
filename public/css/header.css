@@ -8,7 +8,7 @@
     position: sticky;
     padding-right: 20px;
     padding-left: 20px;
-    border-bottom: 15px;
+    border:red;
     border-color: var(--pink);
 }
 .header a{
