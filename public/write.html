@@ -23,16 +23,17 @@
         <!--<input type="button" id="my-button" value="Select Files">
         <input type="file" name="my_file" id="my-file">-->
         <div class="hero-cuerpo2"></div>
-        <div class="hero-text-cuerpo2" contenteditable="true">
-            or write your text here
-        </div>
+        <!-- <div class="hero-text-cuerpo2" contenteditable="true"> -->
+        <input class="hero-text-cuerpo2" type="text" id='message' placeholder='Message'>
+        <!-- </div> -->
         <div class="hero-imgdown">
             <img src="./images/oso.png"  height="100" width="95">
         </div>
-        <a class='button-done' href="www.google.com">Im done</a>
+        <a class='button-done' href="#" id='send'>Im done</a>
         <div class="hero-results"></div>
-        <div class="hero-text-results">
-            resultados casuales
-        </div>
+        <div class="hero-text-results" id='output'></div>
+
+        <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+        <script src="/js/write.js"></script>
     </body>
 </html>
