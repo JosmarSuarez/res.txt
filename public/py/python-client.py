@@ -7,6 +7,7 @@ sio = socketio.Client()
 #logger=True, engineio_logger=True, ssl_verify=False
 
 translation_pipeline = pipeline('translation_en_to_es', model='Helsinki-NLP/opus-mt-en-es')
+summarization_pipeline = pipeline('summarization', model='sshleifer/distilbart-cnn-12-6')
 
 @sio.event
 def connect():
@@ -15,11 +16,12 @@ def connect():
 @sio.on('text-long')
 def action(data):
     text = data['message']
-    print(text)
-    results = translation_pipeline(text)
+    summarize = summarization_pipeline(text)
+    print(summarize[0]['summary_text'])
+    results = translation_pipeline(summarize[0]['summary_text'])
     print(results[0]['translation_text'])
     sio.emit('text-short', {'message': results[0]['translation_text']})
- 
+    
 @sio.event
 def disconnect():
     print('disconnected from server')
