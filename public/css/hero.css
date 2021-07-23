@@ -82,6 +82,7 @@
     font: var(--body1);
     color: var(--white);
     padding: 25px;
+    resize: none;
 }
 .hero-text-cuerpo2{
     position: absolute;
@@ -94,6 +95,7 @@
     color: var(--white);
     padding: 30px;
     justify-content: center;
+    resize: none;
 }
 .hero-results{
     position: absolute;
