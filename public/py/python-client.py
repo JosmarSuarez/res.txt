@@ -1,13 +1,15 @@
 import socketio
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from transformers import pipeline
 
 sio = socketio.Client()
-#reconnection=True, reconnection_attempts=2, reconnection_delay=0, reconnection_delay_max=0,
-#                        randomization_factor=0.1, logger=True
-#logger=True, engineio_logger=True, ssl_verify=False
+
+mod_path = #If you have locate the model folder
+tokenizer_pre = AutoTokenizer.from_pretrained(mod_path)
+model_pre = AutoModelForSeq2SeqLM.from_pretrained(mod_path)
 
 translation_pipeline = pipeline('translation_en_to_es', model='Helsinki-NLP/opus-mt-en-es')
-summarization_pipeline = pipeline('summarization', model='sshleifer/distilbart-cnn-12-6')
+summarization_pipeline = pipeline('summarization', model=model_pre, tokenizer=tokenizer_pre)
 
 @sio.event
 def connect():
@@ -16,7 +18,7 @@ def connect():
 @sio.on('text-long')
 def action(data):
     text = data['message']
-    summarize = summarization_pipeline(text)
+    summarize = summarization_pipeline(text, min_length=40, max_length=80)
     print(summarize[0]['summary_text'])
     results = translation_pipeline(summarize[0]['summary_text'])
     print(results[0]['translation_text'])
