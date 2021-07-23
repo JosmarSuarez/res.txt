@@ -73,7 +73,7 @@
 .hero-cuerpo2{
     position: absolute;
     background: var(--green);
-    opacity: 25%;
+    opacity: 80%;
     width: 550px;
     height: 360px;
     left: 130px;
@@ -98,9 +98,9 @@
 .hero-results{
     position: absolute;
     background: var(--pink);
-    opacity: 25%;
+    opacity: 80%;
     width: 550px;
-    height: 380px;
+    height: 360px;
     left: 820px;
     top: 220px; 
     border-radius: 45px;
@@ -111,7 +111,7 @@
 .hero-text-results{
     position: absolute;
     width: 550px;
-    height: 320px;
+    height: 360px;
     left: 820px;
     top: 220px;
     border-radius: 45px;
@@ -124,4 +124,14 @@
     position: absolute;
     left: 1070px;
     top: 620px;
+}
+.hero-title1{
+    position: absolute;
+    left: 130px;
+    top: 150px;
+}
+.hero-title2{
+    position: absolute;
+    left: 820px;
+    top: 150px;
 }
