@@ -10,6 +10,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Share+Tech&display=swap" rel="stylesheet">
     </head>
     <link rel="stylesheet" href="./css/index.css">
+    <style>
+        .load-img{
+            display:inline;
+        }
+    </style>
     <body>
         <header class="header">
             <h1>res.txt</h1>
@@ -22,20 +27,15 @@
         <div class="hero-title2">
             <h2>Tus resultados</h2>
         </div>
-        <!--<input type="button" id="my-button" value="Select Files">
-        <input type="file" name="my_file" id="my-file">-->
-        <!--div class="hero-cuerpo2"></div-->
-        <!-- <div class="hero-text-cuerpo2" contenteditable="true"> -->
-        <!--input class="hero-cuerpo2" type="text" id='message' placeholder='or write it from scratch'-->
         <textarea class="hero-cuerpo2" name="text" id='message' placeholder='o escríbrelo desde cero' ></textarea>
-        <!-- </div> -->
         <div class="hero-imgdown">
             <img src="./images/oso.png"  height="100" width="95">
         </div>
         <a class='button-done' href="#" id='send'>Terminé</a>
         <div class="hero-results"></div>
-        <div class="hero-text-results" id='output'></div>
-
+        <div class="hero-text-results" id='output'>
+            <img class="load-img" src="./images/OeZKCeq.gif" height="400" id='load_img'>
+        </div>
         <script src="/socket.io/socket.io.js" charset="utf-8"></script>
         <script src="/js/write.js"></script>
     </body>
